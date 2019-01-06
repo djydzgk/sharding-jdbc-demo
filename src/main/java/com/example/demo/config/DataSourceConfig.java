@@ -204,7 +204,7 @@ public class DataSourceConfig {
 
     private Map<String, DataSource> createDataSourceMap() {
         Map<String, DataSource> result = new HashMap<>();
-        result.put("user_0", createDataSource("user"));
+        result.put("user_0", createDataSource("user_0"));
         result.put("user_1", createDataSource("user_1"));
         return result;
     }
